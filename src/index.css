@@ -1,8 +1,14 @@
-body{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+:root {
+  --bg: #17153b;
+  --secondry: #2e236c;
+  --primary: #433d8b;
+  --light: #c8acd6;
+}
 
+body {
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
